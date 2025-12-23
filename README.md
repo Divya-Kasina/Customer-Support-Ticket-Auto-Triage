@@ -54,19 +54,6 @@ Frontend UI
 
 http://127.0.0.1:5000/ui
 
-## API Endpoint (Sample Input)
 
-POST /predict
-
-{
-  "subject": "Laptop not turning on
   
-  "description": "System does not boot after update"
-}
-
-## Sample Output
-{
-  "predicted_category": "Hardware",
-  
-  "latency_seconds": 0.0019
-}
+<img width="967" height="832" alt="image" src="https://github.com/user-attachments/assets/a618f026-67eb-4e71-b8f8-b064dcd5efc1" />
