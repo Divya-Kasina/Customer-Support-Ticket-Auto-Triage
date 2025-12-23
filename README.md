@@ -48,25 +48,25 @@ Flask
 
 HTML / CSS / JavaScript
 
-## How to Run
-pip install pandas scikit-learn flask joblib
-python ticket_classifier_it_dataset.py
-
 ## Usage
+
 Frontend UI
+
 http://127.0.0.1:5000/ui
 
-## API Endpoint
+## API Endpoint (Sample Input)
 
 POST /predict
 
 {
-  "subject": "Laptop not turning on",
+  "subject": "Laptop not turning on
+  
   "description": "System does not boot after update"
 }
 
-## Output
+## Sample Output
 {
   "predicted_category": "Hardware",
+  
   "latency_seconds": 0.0019
 }
